@@ -32,7 +32,7 @@
 <body>
     <header class="header md:header">
         <div class="content-box">
-            <h1><a href="/index.html">Rland</a></h1>
+            <h1><a href="/index">Rland</a></h1>
             <nav class="main-menu">
                 <ul class="md:d:none ">
                     <li><a class="icon icon-menu md:icon-size:3 icon-color:base-0" href="">메뉴</a></li>
