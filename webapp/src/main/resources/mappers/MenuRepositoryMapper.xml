@@ -7,7 +7,7 @@
 	<resultMap id="menuMap" type="kr.co.rland.web.entity.Menu">
 		<result property="korName" column="KOR_NAME"/>
 		<result property="engName" column="ENG_NAME"/>
-		<result property="regName" column="REG_DATE"/>
+		<result property="regDate" column="REG_DATE"/>
 	
 	</resultMap>
 	

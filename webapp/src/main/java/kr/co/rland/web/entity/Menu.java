@@ -2,6 +2,9 @@ package kr.co.rland.web.entity;
 
 import java.util.Date;
 
+//import org.springframework.stereotype.Component;
+//
+//@Component
 public class Menu {
 	private int id;
 	private String korName;
@@ -18,7 +21,6 @@ public class Menu {
 	
 	
 	public Menu(int id, String korName, String engName, String img, int price, boolean like, Date regDate) {
-		super();
 		this.id = id;
 		this.korName = korName;
 		this.engName = engName;
@@ -89,5 +91,14 @@ public class Menu {
 		this.regDate = regDate;
 	}
 
+
+
+	@Override
+	public String toString() {
+		return "Menu [id=" + id + ", korName=" + korName + ", engName=" + engName + ", img=" + img + ", price=" + price
+				+ ", like=" + like + ", regDate=" + regDate + "]";
+	}
+
+	
 	
 }

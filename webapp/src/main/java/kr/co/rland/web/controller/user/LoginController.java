@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("/user/login")
+//@WebServlet("/user/login")
 public class LoginController extends HttpServlet {
 	
 	@Override

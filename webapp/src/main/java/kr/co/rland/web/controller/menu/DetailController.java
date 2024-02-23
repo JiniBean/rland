@@ -11,7 +11,7 @@ import kr.co.rland.web.entity.Menu;
 import kr.co.rland.web.service.MenuService;
 import kr.co.rland.web.service.MenuServiceImp;
 
-@WebServlet("/menu/detail")
+//@WebServlet("/menu/detail")
 public class DetailController extends HttpServlet {
 	private MenuService service;
 	

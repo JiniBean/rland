@@ -5,12 +5,18 @@ import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import kr.co.rland.web.context.MybatisContext;
 import kr.co.rland.web.entity.Menu;
 import kr.co.rland.web.repository.MenuRepository;
 
+@Service
 public class MenuServiceImp implements MenuService {
+	
+//	@Autowired
+//	private SqlSessionFactory factory;
 	private MenuRepository repository;
 
 	public MenuServiceImp() {

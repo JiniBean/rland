@@ -47,6 +47,22 @@
         </div>
     </header>
     <main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <section class="menu-list">
             <h1 class="d:none">메뉴 검색 목록</h1>
             <div>
@@ -113,6 +129,8 @@
                 </section>
             </div>
         </section>
+      
+
     </main>
     
     <section class="basket-status">

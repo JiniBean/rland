@@ -13,7 +13,7 @@ import kr.co.rland.web.entity.Menu;
 import kr.co.rland.web.service.MenuService;
 import kr.co.rland.web.service.MenuServiceImp;
 
-@WebServlet("/menu/list")
+//@WebServlet("/menu/list")
 public class ListController extends HttpServlet{
 	private MenuService service;
 	
@@ -28,9 +28,9 @@ public class ListController extends HttpServlet{
 		
 	
 	List<Menu> list = service.getList();
-
-		req.setAttribute("list", list);
-		req.getRequestDispatcher("/WEB-INF/view/menu/list.jsp").forward(req, res);
+	
+	req.setAttribute("list", list);
+	req.getRequestDispatcher("/WEB-INF/view/menu/list.jsp").forward(req, res);
 	}
 	
 }

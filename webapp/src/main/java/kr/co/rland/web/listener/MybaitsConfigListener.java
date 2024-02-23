@@ -4,7 +4,7 @@ package kr.co.rland.web.listener;
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
 import jakarta.servlet.annotation.WebListener;
-//import kr.co.rland.web.context.MybatisContext;
+import kr.co.rland.web.context.MybatisContext;
 
 @WebListener
 public class MybaitsConfigListener implements ServletContextListener {
